@@ -1,4 +1,4 @@
-{
+return {
   "catppuccin/nvim",
   lazy = true,
   name = "catppuccin",
@@ -59,4 +59,5 @@
         opts.highlights = require("catppuccin.groups.integrations.bufferline").get()
       end
     end,
-  }}
+  },
+}
