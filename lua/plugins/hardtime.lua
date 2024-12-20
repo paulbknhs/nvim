@@ -1,9 +1,9 @@
 return {
-  {
-    "m4xshen/hardtime.nvim",
-    dependencies = { "MunifTanjim/nui.nvim" },
-    opts = {
-      showmode = false,
-    },
+  "m4xshen/hardtime.nvim",
+  opts = {
+    -- Add any custom configuration here
+    disabled_filetypes = { "NvimTree", "TelescopePrompt" },
+    hint = true,
+    max_count = 3,
   },
 }
