@@ -60,4 +60,10 @@ return {
       end
     end,
   },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "catppuccin",
+    },
+  },
 }
